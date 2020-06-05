@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#header{
+    background-color: #22c3aa;
+}
+#header .top{
+    color: #eef3f0;
+    text-align: center;
+    font-size: 60px;
+    height: 70px;
+}
+
+#container{
+    background-color: #22c3aa;
+}
+#container .container_left img{
+    float: left;
+    top: 100px;
+    height: 200px;
+    width: 200px;
+    margin-left: 30%;
+    position: relative;
+    border: 4px solid #aee2d9;
+    
+}
+#container .container_left img:hover{
+    transform: translateY(-10px);
+    
+}
+#container .intro{
+    position: absolute;
+    top: 400px;
+    left:30%;
+    color:#eef3f0;
+    font-size: 20px;
+}
+#container .intro p{
+    text-align: right;
+    line-height: 40px;
+}
+#container .intro p:hover{
+    color: #9f3;
+}
+#container .container_right{
+    height: 900px;
+    width: 50%;
+    margin-left: 50%;
+    padding-top: 85px;
+    position: relative;
+}
+
+#container .project{
+   
+    color: #eef3f0;
+    font-size: 45px;
+}
+#container .project1{
+    width: 100%;
+    height: 200px;
+    color: #008a75;
+    font-size: 20px;
+    padding-top: 10px;
+}
+#container .project1>p:first-child{
+    font-size: 38px;
+}
+#container .project1>p:hover{
+    color: #9f3;
+}
+#container .project2{
+    width: 100%;
+    height: 200px;
+    color: #008a75;
+    font-size: 20px;
+    padding-top: 10px;
+}
+#container .project2>p:first-child{
+    font-size: 38px;
+}
+#container .project2>p:hover{
+    color: #9f3;
+}
+#container .project3{
+    width: 100%;
+    height: 200px;
+    color: #008a75;
+    font-size: 20px;
+    padding-top: 10px;
+}
+#container .project3>p:first-child{
+    font-size: 38px;
+}
+#container .project3>p:hover{
+    color: #9f3;
+}
